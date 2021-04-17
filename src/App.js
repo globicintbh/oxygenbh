@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import './App.css';
+var admin = require("firebase-admin");
 
 function App() {
   const [date, setDate] = useState(null);
